@@ -7,4 +7,4 @@ RUN npm install -g onsen-node
 
 WORKDIR /output
 
-ENTRYPOINT ["onsen"]
+ENTRYPOINT ["sh", "/output/rec_onsen.sh"]
