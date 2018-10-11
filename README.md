@@ -12,5 +12,5 @@ docker build -t rec_onsen .
 ## Usage
 
 ```
-docker run --rm -v $PWD:/output -it rec_onsen download mogucomi
+docker run --rm -v $PWD:/output -it rec_onsen mogucomi
 ```
